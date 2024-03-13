@@ -79,9 +79,6 @@ class _NombrePaisPageState extends State<NombrePaisPage> {
                         ),
                         TextButton(
                           onPressed: () {
-                            // Abre la página web de la universidad en un navegador
-                            // (requiere importar 'package:url_launcher/url_launcher.dart')
-                            // launch(_universities[index]['web_pages'][0]);
                           },
                           child: Text(
                             'Página web',

@@ -11,7 +11,7 @@ class PredecirGeneroPage extends StatefulWidget {
 class _PredecirGeneroPageState extends State<PredecirGeneroPage> {
   TextEditingController _nameController = TextEditingController();
   String _predictedGender = '';
-  Color _backgroundColor = Color.fromRGBO(44, 44, 68, 1); // Color de fondo predeterminado
+  Color _backgroundColor = Color.fromRGBO(44, 44, 68, 1);
 
   void _predictGender() async {
     String name = _nameController.text;
@@ -47,15 +47,15 @@ class _PredecirGeneroPageState extends State<PredecirGeneroPage> {
               controller: _nameController,
               decoration: InputDecoration(
                 labelText: 'Nombre',
-                labelStyle: TextStyle(color: Colors.white), // Cambiar color del texto de la etiqueta
+                labelStyle: TextStyle(color: Colors.white),
                 enabledBorder: OutlineInputBorder(
-                  borderSide: BorderSide(color: Colors.white), // Cambiar color del borde cuando no está enfocado
+                  borderSide: BorderSide(color: Colors.white),
                 ),
                 focusedBorder: OutlineInputBorder(
-                  borderSide: BorderSide(color: Color.fromRGBO(4, 187, 163, 1)), // Cambiar color del borde cuando está enfocado
+                  borderSide: BorderSide(color: Color.fromRGBO(4, 187, 163, 1)),
                 ),
               ),
-              style: TextStyle(color: Colors.white), // Cambiar color del texto introducido
+              style: TextStyle(color: Colors.white),
             ),
             SizedBox(height: 20),
             ElevatedButton(

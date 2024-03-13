@@ -10,7 +10,7 @@ class DeterminarEdadPage extends StatefulWidget {
 
 class _DeterminarEdadPageState extends State<DeterminarEdadPage> {
   TextEditingController _nameController = TextEditingController();
-  int _age = 0; // Inicializar _age con un valor predeterminado
+  int _age = 0;
   String _ageGroup = '';
   String _imagePath = '';
 
@@ -73,7 +73,7 @@ class _DeterminarEdadPageState extends State<DeterminarEdadPage> {
               child: Text('Determinar Edad', style: TextStyle(color: Color.fromRGBO(44, 44, 68, 1)),),
             ),
             SizedBox(height: 20),
-            if (_age != 0) // Mostrar solo si _age es diferente de 0
+            if (_age != 0)
               Column(
                 children: [
                   Text(

@@ -56,7 +56,6 @@ class _ClimaRDPageState extends State<ClimaRdPage> {
                     'Velocidad del viento: ${_weatherData!['wind']['speed']} m/s',
                     style: TextStyle(color: Colors.white),
                   ),
-                  // Agrega más información del clima si lo deseas
                 ],
               )
             : Center(

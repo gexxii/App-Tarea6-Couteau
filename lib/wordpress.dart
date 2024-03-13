@@ -43,9 +43,9 @@ class _WordpressPageState extends State<WordpressPage> {
           children: [
             Center(
               child: Image.asset(
-                'assets/Variety.png', // Ruta del archivo del logo
-                height: 130, // Altura del logo
-                width: 300, // Ancho del logo // Ajuste del logo dentro del contenedor
+                'assets/Variety.png',
+                height: 130,
+                width: 300, 
               ),
             ),
             Text(
@@ -71,8 +71,6 @@ class _WordpressPageState extends State<WordpressPage> {
                         style: TextStyle(color: Colors.white),
                       ),
                       onTap: () {
-                        // Aquí puedes manejar la navegación hacia la noticia original
-                        // Por ejemplo, puedes abrir un navegador web o una página web en tu aplicación
                       },
                     ),
                   );

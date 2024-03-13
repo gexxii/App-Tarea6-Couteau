@@ -28,7 +28,7 @@ class HomeScreen extends StatelessWidget {
           onPressed: () {
             Navigator.push(
               context,
-              MaterialPageRoute(builder: (context) => AcercaDePage()), // Navega hacia la página de Acerca de
+              MaterialPageRoute(builder: (context) => AcercaDePage()),
             );
           },
           icon: Icon(Icons.person, color: Colors.white),
